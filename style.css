@@ -40,3 +40,12 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+li {
+       display: list-item;
+}
