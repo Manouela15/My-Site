@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: white;
-    color: white;
+    background-color: rgb(247, 247, 219);
+    color: rgb(33, 119, 62);
     text-align: center;
     padding: 20px;
 }
@@ -24,12 +24,12 @@ section {
 }
 
 img {
-    width: 50%;
+    max-width: 100%;
     height: auto;
     margin-top: 10px;
 }
 
-i
+/* ΔΙΟΡΘΩΣΗ ΕΔΩ */
 h2 {
     color: brown;
 }
@@ -47,10 +47,24 @@ ol {
 }
 
 li {
-       display: list-item;
+    display: list-item;
 }
+
+/* ΓΙΑ 2 ΦΩΤΟ ΔΙΠΛΑ-ΔΙΠΛΑ */
+.container {
+    display: flex;
+    gap: 10px;
+}
+
 .container img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+header {
+    background-color: rgb(247, 247, 219);
+    color: rgb(33, 119, 62);
+    text-align: center;
+    padding: 20px;
+  
 }
