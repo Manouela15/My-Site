@@ -30,8 +30,13 @@ img {
 }
 
 /* ΔΙΟΡΘΩΣΗ ΕΔΩ */
+h1 {
+    font-size: 3em;
+}
+
 h2 {
     color: brown;
+    font-size: 2em;
 }
 
 footer {
