@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: rgb(247, 247, 219);
-    color: rgb(33, 119, 62);
+    background-color: rgb(226, 226, 116);
+    color: rgb(141, 19, 19);
     text-align: center;
     padding: 20px;
 }
@@ -35,7 +35,7 @@ h2 {
 }
 
 footer {
-    background-color: red;
+    background-color: rgb(10, 143, 8);
     color: white;
     text-align: center;
     padding: 10px;
@@ -51,20 +51,20 @@ li {
 }
 
 /* ΓΙΑ 2 ΦΩΤΟ ΔΙΠΛΑ-ΔΙΠΛΑ */
-.container {
+.image-container {
     display: flex;
     gap: 10px;
 }
 
-.container img {
+.image-container img {
     width: 50%;
     height: 200px;
     object-fit: cover;
 }
-header {
-    background-color: rgb(247, 247, 219);
-    color: rgb(33, 119, 62);
+
+
+
+footer   {background-color: rgb(226, 226, 116);
+    color: rgb(141, 19, 19);
     text-align: center;
-    padding: 20px;
-  
-}
+    padding: 10px;}  
