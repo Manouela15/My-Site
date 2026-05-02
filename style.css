@@ -58,7 +58,8 @@ li {
 
 .image-container img {
     width: 50%;
-    height: auto;
+    height: 300px;  /* crop to this height */
+    object-fit: cover;  /* maintains aspect ratio while filling the space */
 }
 
 
