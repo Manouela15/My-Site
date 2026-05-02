@@ -60,15 +60,14 @@ li {
 /* ΓΙΑ 2 ΦΩΤΟ ΔΙΠΛΑ-ΔΙΠΛΑ */
 .image-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
+    width: 100%;
 }
 
 .image-container img {
-    width: 45%;
-    max-width: 320px;
+    width: calc(50% - 5px);
     height: auto;
+    display: block;
 }
 
