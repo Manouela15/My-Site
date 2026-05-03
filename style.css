@@ -49,9 +49,33 @@ ul, ol {
 
 /* FOOTER */
 footer {
-  margin-top: 40px;
-  padding: 20px;
-  background: #faf7f4;
-  border-top: 2px solid #d8cfc4;
-  text-align: center;
+    background-color: rgb(10, 143, 8);
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
+
+ol {
+    list-style-type: decimal;
+    padding-left: 30px;
+}
+
+li {
+    display: list-item;
+}
+
+/* ΓΙΑ 2 ΦΩΤΟ ΔΙΠΛΑ-ΔΙΠΛΑ */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-container img {
+    width: 45%;
+    max-width: 320px;
+    height: auto;
+}
+
