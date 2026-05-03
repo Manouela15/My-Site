@@ -49,3 +49,15 @@ footer {
   text-align: center;
   padding: 10px;
 }
+.section {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+
+img {
+  height: 250px;
+  object-fit: cover;
+}
