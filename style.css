@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* ΚΟΥΤΙ (container) */
+
 .container {
     max-width: 900px;
     margin: 40px auto;
@@ -13,14 +13,14 @@ body {
     border-radius: 15px;
 }
 
-/* εικόνα header */
+
 header img {
     width: 100%;
     border-radius: 10px;
     margin-top: 15px;
 }
 
-/* κάτω εικόνες */
+
 .image-container {
     display: flex;
     gap: 10px;
@@ -32,7 +32,7 @@ header img {
     border-radius: 10px;
 }
 
-/* footer */
+
 footer {
     margin-top: 30px;
     text-align: center;
