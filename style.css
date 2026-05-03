@@ -18,7 +18,7 @@ body {
 
 
 .hero {
-  background: #f6f68b;
+  background: #f6f69c;
   border-radius: 24px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0,0,0,0.12);
@@ -48,7 +48,7 @@ h1 {
 .container {
   margin-top: 28px;
   padding: 32px;
-  background: #f0f059;
+  background: #f6f69c;
   border-radius: 24px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
