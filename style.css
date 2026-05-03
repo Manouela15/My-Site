@@ -1,9 +1,9 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #edffe6;
-  color: #333;
   margin: 0;
 }
+
 
 header {
   text-align: center;
@@ -12,9 +12,10 @@ header {
 
 header img {
   width: 100%;
-  max-height: 300px;
+  max-height: 200px;
   object-fit: cover;
 }
+
 
 main {
   max-width: 900px;
@@ -22,29 +23,21 @@ main {
   padding: 20px;
 }
 
-section {
-  background-color: white;
-  margin-bottom: 20px;
-  padding: 20px;
+/* ✅ CONTAINER ΜΕ ΠΡΑΣΙΝΟ ΜΕΣΑ */ontainer {
+  background-color: rgb(247, 247, 115); 
+  padding: 20px; 
+  margin: 20px 0; 
   border-radius: 10px;
 }
+
 
 h1, h2 {
   color: brown;
 }
 
-.image-container {
-  display: flex;
-  gap: 10px;
-}
-
-.image-container img {
-  width: 50%;
-  border-radius: 10px;
-}
-
+/* FOOTER */
 footer {
-  background-color: rgb(10, 143, 8);
+  background-color: rgb(247, 247, 115);
   color: white;
   text-align: center;
   padding: 10px;
