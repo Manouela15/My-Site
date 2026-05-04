@@ -13,11 +13,10 @@ body {
 .desktop {
   width: 100%;
   min-height: 1900px;
-  background-color: rgba(161, 0, 0, 0.30);
+  background-color: rgba(237, 242, 83, 0.3);
   padding-bottom: 64px;
 }
 
-/* Frame 7 from Figma */
 .page {
   width: 100%;
   max-width: 1280px;
