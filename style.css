@@ -13,7 +13,7 @@ body {
 .desktop {
   width: 100%;
   min-height: 1900px;
-  background-color: rgb(255, 153, 0);
+  background-color: rgba(251, 155, 30, 0.966);
   padding-bottom: 64px;
 }
 
