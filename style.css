@@ -9,11 +9,11 @@ body {
   color: #333;
 }
 
-/* Desktop frame from Figma */
+
 .desktop {
   width: 100%;
   min-height: 1900px;
-  background-color: rgba(246, 246, 5, 0.723);
+  background-color: rgba(131, 237, 104, 0.582);
   padding-bottom: 64px;
 }
 
