@@ -13,7 +13,7 @@ body {
 .desktop {
   width: 100%;
   min-height: 1900px;
-  background-color: rgba(239, 224, 21, 0.723);
+  background-color: rgb(255, 136, 0) (239, 224, 21, 0.723);
   padding-bottom: 64px;
 }
 
@@ -45,19 +45,18 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  color: brown
 }
 .subtitle {
   font-size: 20px;
-  color: #451010;
-  font-style:italic;
+  color: brown;
+  font-weight: 500; 
 }
-
 .content {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
-
 
 .section-card {
   background-color:white;
