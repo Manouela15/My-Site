@@ -13,7 +13,7 @@ body {
 .desktop {
   width: 100%;
   min-height: 1900px;
-  background-color: rgba(243, 168, 19, 0.723);
+  background-color: rgba(239, 224, 21, 0.723);
   padding-bottom: 64px;
 }
 
@@ -40,11 +40,16 @@ body {
   border: 1px solid #fcfcfc;
 }
 
-.title-row {
+.title{
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+.subtitle {
+  font-size: 20px;
+  color: #451010;
+  font-style:italic;
 }
 
 .content {
